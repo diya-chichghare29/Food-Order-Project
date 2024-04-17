@@ -1,0 +1,82 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    height: 22rem;
+    width: 18rem;
+    border: 0.1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #e72929;
+    position: relative;
+}
+
+li a:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.content {
+    padding: 0.5rem 1rem;
+}
+
+.favorite {
+    position: absolute;
+    bottom: 6.5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+}
+.tags{
+   font-size: medium;
+    line-height: 0.8;
+    margin: 0px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:black;
+    max-width: 56%;
+    padding: 0.3rem ;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem ;
+    line-height: 1.5;
+}
+.star {
+    cursor: pointer;
+}
+.empty-star {
+    color: black; /* color for empty stars */
+    cursor: pointer;
+}
+
+
+
+.cook-time {
+    font-size: 0.8rem;
+    text-align: right;
+    position: absolute;
+    bottom: 4rem;
+    right: 1rem;
+}
+
+.price {
+    padding: 0.5rem ;
+    font-size: 0.2;
+    color: #424242;
+    margin-top: 0.2rem;
+    position: absolute;
+    top: 19rem;
+}

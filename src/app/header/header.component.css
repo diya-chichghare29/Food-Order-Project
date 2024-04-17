@@ -1,0 +1,53 @@
+
+header {
+    background-color: white;
+    padding: 0;
+    border-bottom: 1px solid #f21010;
+}
+
+a {
+    color:#e72929;
+}
+
+a:hover {
+    background-color:red ;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.logo{
+   font-weight: bold;
+    padding: 1rem;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a{
+padding: 1rem;
+display: inline-block;
+
+}
+
+
+a.logo {
+    font-weight: bold;
+    padding: 1rem;
+    display: flex; /* Add this line */
+    align-items: center; /* Add this line */
+}
+
+.logo img {
+    width: 40px; /* Set the width according to your preference */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+}
+
+
